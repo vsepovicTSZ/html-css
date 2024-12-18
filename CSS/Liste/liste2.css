@@ -1,0 +1,10 @@
+ol {
+    background: green;
+    list-style-position: outside;
+    list-style-image: url("ImgDir/5_pixel_by_5_pixel_red_dot_clear_back.png");
+
+}
+
+li{
+    background: yellow;
+}
