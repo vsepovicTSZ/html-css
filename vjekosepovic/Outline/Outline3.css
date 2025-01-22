@@ -1,0 +1,12 @@
+p{
+    border: 1px solid black;
+}
+
+.out1{
+    outline: thick double red;
+}
+
+.out2{
+    outline: 3px double green;
+}
+
