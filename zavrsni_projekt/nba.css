@@ -65,8 +65,8 @@ a:hover {
 .jordan {
     flex: 1 0 auto;
     background: url("img/nba75.jpg") center/cover no-repeat;
-    min-height: calc(100vh - 150px); /* visina ekrana minus visina headera */
-    padding-top: 1000px; /* koliko zauzima header */
+    min-height: calc(100vh - 150px);
+    padding-top: 1000px;
 }
 
 
@@ -76,3 +76,23 @@ a:hover {
     }
 }
 
+.slika {
+    transition: all .2s ease-in-out;
+}
+
+.slika:hover {
+    transform: scale(1.1);
+}
+
+.ikone {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.copyright{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
